@@ -35,11 +35,6 @@ The data types of Features are:
 - Sentiment: string (Target)
 - Tweet content: string
 
-The validation database “twitter_validation.csv” contains 998 lines (Tweets) with the same features of “twitter_training.csv”.
-
-This is the Data Source:
-https://www.kaggle.com/datasets/jp797498e/twitter-entity-sentiment-analysis
-
 ## Repository Structure
 
 - **Django-Dashboard** : this folder contains Dashboard Django Application
@@ -168,26 +163,3 @@ this is an img of the MongoDBCompass after Running the Kafka and Spark Streaming
 - in the Dashboard, There is a table contains tweets with labels.
 - in the Dashboard, There is 3 statistics or plots : labels rates - pie plot - bar plot.
 
-
-## Team :
-
-- [Khattabi Idriss](https://github.com/drisskhattabi6) 
-- [Boufarhi Ayman](https://github.com/aymanboufarhi) 
-- [Abdelali IBN TABET](https://github.com/abd-ibn)
-
-## Supervised By : 
-
-- Prof. **Yasyn El Yusufi**
-
----
-
-Abdelmalek Essaadi University - Faculty of Sciences and Technology of Tangier
-
-- Master: Artificial Intelligence and Data Science
-- Module: Big Data
-
----
-
-- By following the above instructions, you should be able to set up and run the real-time Twitter sentiment analysis project on your local machine. Happy coding!
-
-- Feel free to explore the project and customize it according to your requirements. If you encounter any issues or have any questions, don't hesitate to reach out!
